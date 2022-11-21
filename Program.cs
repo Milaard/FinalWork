@@ -1,8 +1,8 @@
 ﻿string[]array = GetArray();
 //string[] array = new[] {"Hello", "2", "world", ":-"};
-string[] result = FilterArray(array, 3);
+string[] output = FilterArray(array, 3);
 
-Console.WriteLine($"[{string.Join(", ", array)}] -> [{string.Join(", ", result)}]");
+Console.WriteLine($"[{string.Join(", ", array)}] -> [{string.Join(", ", output)}]");
 Console.ReadKey();
 
 string[] GetArray()
